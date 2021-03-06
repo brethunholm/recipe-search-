@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Recipe Fetcher</title>
+  <link rel="stylesheet" href="/base.0884614d.css">
+  <style>.search {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    button[disabled] {
+      opacity: 0.2;
+    }
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VzIjpbIi4vaW5kZXguaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6W251bGxdLCJuYW1lcyI6W10sInZlcnNpb24iOjMsImZpbGUiOiI3NSAtIENPUlMgYW5kIFJlY2lwZXMuNWY2MTc3MDAuY3NzLm1hcCIsInNvdXJjZVJvb3QiOiIvX19wYXJjZWxfc291cmNlX3Jvb3QvIn0= */
+</style>
+</head>
+
+<body>
+
+
+  <div class="wrapper">
+    <form class="search" autocomplete="off">
+      <input type="text" name="query" value="pizza">
+      <button name="submit" type="submit">Submit</button>
+    </form>
+    <div class="recipes"></div>
+  </div>
+
+  <script src="/scripts.df7b02b1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "dogrecipes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts-FINISHED.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1"
+  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ]
+}

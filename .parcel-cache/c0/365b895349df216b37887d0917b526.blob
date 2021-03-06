@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Recipe Fetcher</title>
+  <link rel="stylesheet" href="024e13b2d23cca63f928d62f423180dc">
+  <style data-parcel-key="4b0ccb19a6c61e1c08ab9788e01dc4ca">
+    .search {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    button[disabled] {
+      opacity: 0.2;
+    }
+
+    .recipes {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="wrapper">
+    <form class="search" autocomplete="off">
+      <input type="text" name="query" value="pizza">
+      <button name="submit" type="submit">Submit</button>
+    </form>
+    <div class="recipes"></div>
+  </div>
+
+  <script src="19364c2cec1a8180df5a4b02a0c92574"></script>
+</body>
+
+</html>
